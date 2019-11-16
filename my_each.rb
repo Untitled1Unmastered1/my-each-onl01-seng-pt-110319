@@ -1,4 +1,5 @@
 def my_each(collection)
-  yield |x|
-  x 
-end
+  if block_given?
+    g = 0 
+    
+    while g < 
